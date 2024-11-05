@@ -27,7 +27,7 @@ function imc(){
         
     }
     console.log(paciente)
-    console.log(paciente.calcularIMC())
+    console.log(paciente.calcularIMC(  ))
     let resposta=document.getElementById('resposta');
     resposta.innerHTML="Seu IMC  "+paciente.calcularIMC()+". " + "Sua classificação de peso  " + paciente.classificacao;
 }
